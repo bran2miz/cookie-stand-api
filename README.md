@@ -2,7 +2,7 @@
 
 ## Author: Brandon Mizutani
 
-Version: 1.0.0 (PR URL: [PR URL]()
+Version: 1.0.0 (PR URL: [PR URL](https://github.com/bran2miz/cookie-stand-api/pull/4)
 
 ## Overview
 
