@@ -1,24 +1,37 @@
-# api-quick-start
+# Back End Deployment - Lab 34
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Author: Brandon Mizutani
 
-## Customization Steps
+Version: 1.0.0 (PR URL: [PR URL]()
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Optional: Update `api_tester.py`
+## Overview
+
+This lab assignment required us to deploy our api through elephant sql and aws.
+
+## Getting Started
+
+### Lab 34
+
+We had to create a project that we cloned down from the API Quick Start template.
+
+- We had to host the database at ElephantSQL.
+
+- Had to deploy the docker container to AWS
+
+## Architecture
+
+Python, Django, Models, get_user_model, superuser, CRUD, Docker, REST, permissions, postgresql, JWT, whitenoise, Gunicorn, elephantsql, aws, ec2
+
+## Change Log
+
+03-26-22 -- Pages render as expected and assignment is complete.
+
+## Credit and Collaborations
+
+Eddie Ponce
+
+Alex Payne
+
+Connor Boyce
+
+Roger Huba
